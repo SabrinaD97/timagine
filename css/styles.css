@@ -139,3 +139,34 @@ img{
     text-align: center;
     margin: 0;
 }
+
+/*MÉDIAS SOCIAUX*/
+.media{
+    background-color: #272727;
+    border-radius: 0 15px 15px 0;
+    padding: 10px;
+
+    position: fixed;
+    top: 200px;
+    left: 0px;
+}
+
+.media ul{
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    gap: 10px;
+}
+
+.media img{
+    height: 40px;
+    width: 40px;
+
+    display: block;
+}
+
+.media img:hover{
+    position: relative;
+    left: 3px;
+}
