@@ -28,14 +28,54 @@ body {
 ------------------------------------------------------------------------------*/
 
 .wrapper{
-
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /*------------------------------------------------------------------------------
    Element/typographie
 ------------------------------------------------------------------------------*/
 
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 
 /*------------------------------------------------------------------------------
    Components
 ------------------------------------------------------------------------------*/
+
+.header{
+    color: #07020d;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 100%;
+}
+
+.header .wrapper{
+    max-width: 800px;
+
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+.logo{
+    font-size: 1.875rem;
+    color: inherit;
+}
+
+.material-symbols-outlined{
+    font-size: 1.875rem;
+}
