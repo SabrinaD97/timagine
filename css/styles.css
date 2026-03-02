@@ -46,6 +46,10 @@ button{
     cursor: pointer;
 }
 
+img{
+    max-width: 100%;
+}
+
 /*------------------------------------------------------------------------------
    Components
 ------------------------------------------------------------------------------*/
@@ -82,9 +86,21 @@ button{
 }
 
 /*HERO*/
-
 .hero{
     height: 400px;
 
     background: url(../images/photos/mountains.jpg) no-repeat center/cover;
 }
+
+/*CONTENU*/
+.contenu{
+    padding: 100px 0;
+}
+
+.contenu .wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    border-radius: 10px;
+}
+
