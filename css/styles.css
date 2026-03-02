@@ -50,6 +50,7 @@ button{
    Components
 ------------------------------------------------------------------------------*/
 
+/*HEADER*/
 .header{
     color: #07020d;
     position: fixed;
@@ -71,11 +72,19 @@ button{
     padding: 10px 20px;
 }
 
-.logo{
+.header .logo{
     font-size: 1.875rem;
     color: inherit;
 }
 
-.material-symbols-outlined{
+.header .material-symbols-outlined{
     font-size: 1.875rem;
+}
+
+/*HERO*/
+
+.hero{
+    height: 400px;
+
+    background: url(../images/photos/mountains.jpg) no-repeat center/cover;
 }
